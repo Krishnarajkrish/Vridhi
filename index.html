@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vridhi School Of Arts</title>
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon -->
+    <link rel="Icon" href="Assets/Logo.png">
+   <!-- Font awesome CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header>
+    <!-- navigation bar -->
+    <div class="navclass">
+        <nav>
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+              <li class="scrolling"><a href="#HOME">Home</a></li>
+              <li class="scrolling"><a href="#ABOUT">About</a></li>
+              <li class="scrolling"><a href="#COURSES">Courses</a></li>
+              <li class="scrolling"><a href="#GALLERY">Gallery</a></li>
+              <li class="scrolling"><a href="#REVIEW">Review</a></li>
+              <li class="scrolling"><a href="#CONTACT">Contact</a></li>
+            </ul>
+            <ul>
+                
+              <li><img src="Assets/Logo.png" alt="Logo image"></li>
+              <li class="hideOnMobile"><a href="#HOME">Home</a></li>
+              <li class="hideOnMobile"><a href="#ABOUT">About</a></li>
+              <li class="hideOnMobile"><a href="#COURSES">Courses</a></li>
+              <li class="hideOnMobile"><a href="#GALLERY">Gallery</a></li>
+              <li class="hideOnMobile"><a href="#REVIEW">Review</a></li>
+              <li class="hideOnMobile"><a href="#CONTACT">Contact</a></li>
+              
+              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+          </nav>             
+    </div>
+    <div class="navTwo">
+        <div class="gridLayout">
+            <p>Are you a university or school student for an online tutoring partnership? Talk to us</p>
+        </div> 
+    </div>
+   <!-- herosection -->
+   <section id="HOME">
+    <div class="gridLayout">
+        <div class="herosSection">
+            <div class="herosectionContent"  data-aos="fade-up"
+            data-aos-duration="3000">
+               <h3>Learn The Tradition</h3>
+               <h1>
+                <!-- Experience the <br>
+               Tradition of <br>
+               Tanjore  -->
+               <span id="elementOne"></span>
+               <!-- <img src="Assets/Vector6.png" alt=""> -->
+              </h1>
+              <p>Bring the Artist Within You to Life. Learn 
+                Tanjore Painting from Anywhere, Uncover 
+                Your Artistic Potential. Enroll Today</p>
+              <div class="herosectionContentButtons">
+              <a href="#CONTACT"><button class="ContentButtonOne">Get Started</button></a> 
+              <a href="#ABOUT">
+              <div class="ContentButtonTwo">
+               <!-- <img src="Assets/playButton.png" alt=""> -->
+               <h6>Learn Moree</h6> 
+              </div></a>
+              </div>
+            </div>
+            <div class="herosectionImage"  data-aos="fade-up"
+            data-aos-duration="3000">
+                <img src="Assets/Herosectionimg.png" alt="herosectionimage">
+            </div>
+        </div>
+    </div> 
+   </section> 
+</header>
+<main>
+<section class="counter-section">
+    <div class="gridLayout">
+       <div class="Boxes"  data-aos="fade-up"
+       data-aos-duration="3000"> 
+        <div class="Boxes-1">
+            <div class="Box-1 box">
+                <h2 class="counter" data-target="21">21+</h2>
+                <h4>Years Of Expertise</h4>
+            </div>
+            <div class="Box-2 box">
+                <h2 class="counter" data-target="20000">20000+</h2>
+                <h4>Hours Tutored</h4>
+            </div>
+        </div>
+        <div class="Boxes-2">
+            <div class="Box-3 box">
+                <h2 class="counter" data-target="100">100+</h2>
+                <h4>Arts Completed</h4>
+            </div>
+            <div class="Box-4 box">
+                <h2 class="counter" data-target="500">500+</h2>
+                <h4>Active Students</h4>
+            </div>   
+        </div> 
+       </div>
+    </div>
+</section>
+<section id="ABOUT">
+     <div class="gridLayout">
+          <div class="AboutUsSection">
+                <div class="AboutUsContent"  data-aos="zoom-in-right">
+                     <h4>About Us: Vridhi School of Arts</h4>
+                     <h2><span id="element"></span></h2>
+                     <p>Vridhi School of Arts was founded in [Year] by Alagusundaram N., a passionate and dedicated artist with over 21 years of experience in the exquisite art form of Tanjore painting.  We invite you to join us at Vridhi School of Arts and explore the captivating world of traditional art forms. Let's create, learn, and grow together!</p>
+                     <a href="#COURSES"><button>Learn More</button></a>
+                </div>
+                <div class="AboutUsImage" data-aos="zoom-in-left">
+                     <img src="Assets/AboutUS.png" alt="AboutUsImage">
+                </div>
+          </div>
+     </div>
+</section>
+<section id="COURSES">
+    <div class="courseSection">
+        <div class="gridLayout">
+            <div class="courseSections">
+                <div class="courseSectionImage" data-aos="zoom-in-right">
+                    <img src="Assets/ProjectssImages1.png" alt="CoursesImage">
+                </div>
+                <div class="courseSectionContent" data-aos="zoom-in-left">
+                      <h2><span id="elementThree"></span> 
+                        <!-- Tanjore Painting Course -7 months -->
+                    </h2>
+                      <p>Embark on a transformative journey into the captivating world of Tanjore painting with Vridhi School of Arts! This comprehensive 7-month course is meticulously designed to guide you, step-by-step, from a complete beginner to a confident Tanjore painting artist.pen_spark</p>
+                      <a href="#GALLERY"><button>View More</button></a>
+                      <div class="achivements">
+                           <div class="achive-1 achive">
+                            <h3 >12K</h3>
+                            <p>Incredible <br>Journay</p>
+                           </div>
+                           <div class="achive-2 achive">
+                            <h3>98+</h3>
+                            <p>Best <br> Places</p>
+                           </div>
+                           <div class="achive-3 achive">
+                            <h3>21+</h3>
+                            <p>Years <br>Experience</p>
+                           </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="GALLERY">
+    <div class="gridLayout">
+         <div class="gallerySection"  data-aos="fade-up"
+         data-aos-duration="3000">
+            <h4>Art is Life</h4>
+            <h2>Art Gallery of vridhi</h2>
+            <div class="Galleryyy">
+                 <div class="galleryOne">
+                      <img src="Assets/GroupingOne.png" alt="" class="Imageone">
+                      <img src="Assets/GroupingTwo.png" alt="" class="ImageTwo">
+                 </div>
+                 <div class="galleryTwo">
+                      <img src="Assets/GroupingThree.png" alt="" class="ImageThree">
+                      <img src="Assets/GroupingFour.png" alt="" class="ImageFour">
+                 </div>
+            </div>    
+         </div>         
+    </div>
+</section>
+<section id="REVIEW">
+     <div class="gridLayout">
+          <div class="ReviewSection"  data-aos="fade-up"
+          data-aos-duration="3000">
+                 <h4>OUR TESTIMONIALS</h4>
+                 <h2>What Our Student Say About US</h2>
+                 <div class="reviews">
+                     <img src="Assets/Person1.png" alt="reviewimg"  class="ReviewerImage" >
+                     <h3 class="ReviwerName">Alber Monica</h3>
+                     <!-- <h4 class="ReviewerRole">Lawyer</h4> -->
+                     <h6 class="StartRating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </h6>
+                     <div class="ArrowMark" >
+                        <i class="fa fa-chevron-circle-left arrow" id="btn-left"></i>
+                        <i class="fa fa-chevron-circle-right arrow" id="btn-right"></i>
+                    </div>
+                     
+                     <p class="ActualReview">"                       
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, voluptatibus!
+                    "</p>
+                 </div>
+          </div>
+     </div>
+</section>
+<section id="CONTACT">
+      <div class="gridLayout">
+         <div class="contactSection"  data-aos="fade-up"
+         data-aos-duration="3000">
+               <h4>Contact Us</h4>
+               <h2>Well are ready to receive your message</h2>
+              <div class="contactBackground">
+                   <div class="ContactContainer">
+                         <div class="contactWhite">
+                            <div class="contactWhites whiteOne">
+                                <h3><i class="fa-solid fa-phone"></i>  &nbsp;Call US</h3>
+                                <p>+91 9940454908</p>
+                            </div>
+                            <div class="contactWhites whiteTwo">
+                                <h3><i class="fa-solid fa-address-book"></i>&nbsp;  Meet Us</h3>
+                                <p>48A Chander Plaza, Arcot Road, Saligramam, Chennai-600093</p>
+                            </div>
+                            <div class="contactWhites whiteThree">
+                               <h3><i class="fa-solid fa-envelope"></i>
+                                &nbsp;Email Us</h3>
+                               <p>alaghu18@gmail.com</p>
+                            </div>
+                         </div>
+                         <div class="contactGreen">
+                               <input type="text" placeholder="Name*">
+                               <input type="text" placeholder="Email*">
+                               <textarea rows="5" placeholder="Message*"></textarea>
+                               <button>Submit</button>
+                         </div>
+                   </div>
+              </div>
+         </div>
+      </div>
+</section>
+</main>
+<footer>
+    <div class="gridLayout">
+         <div class="footerSection">
+            <div class="footerLogo">
+                <img src="Assets/FooterLogo.png" alt="footerImage">
+            </div>
+            <div class="SiteMap">
+                 <h3>Site Map</h3>
+                 <a href="#HOME"><h5>Home</h5></a>
+                 <a href="#ABOUT"><h5>About</h5></a>
+                 <a href="#COURSES"><h5>Courses</h5></a>
+                 <a href="#GALLERY"><h5>Gallery</h5></a>
+                 <a href="#REVIEW"><h5>Contact</h5></a>
+                 <a href="#CONTACT"><h5>Reviews</h5></a>
+            </div>
+            <div class="SocialLinks">
+                 <h3>Social Links</h3>
+                 <a href="https://www.instagram.com/vridhi_school_of_arts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><h5><i class="fa-brands fa-instagram"></i> Instagram</h5></a>
+                 <a href="#"><h5><i class="fa-brands fa-youtube"></i> Youtube</h5></a>
+                 <a href="https://wa.me/919940454908"><h5><i class="fa-brands fa-whatsapp" target="_blank"></i> Whatsapp</h5></a>
+                 <a href="#"><h5><i class="fa-brands fa-square-x-twitter"></i> Twitter</h5></a>
+                 <a href="#"><h5><i class="fa-brands fa-square-facebook"></i> Facebook</h5></a>
+            </div>
+         </div>
+    </div>
+</footer>
+<div class="CopyRights">
+        <h4>Copyrigths&copy;2024 All Rights Reserved</h4>
+</div>
+
+      <script src="script.js"></script>
+</body>
+</html>
